@@ -21,9 +21,11 @@
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
-    "rxjs": "^6.0.0",
+    "rxjs": "^6.2.0",
+    "rxjs-compat": "^6.2.0",
     "vgr-komponentkartan": "^3.0.0-beta15",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "ngx-perfect-scrollbar": "^5.3.5"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^6.0.3",
