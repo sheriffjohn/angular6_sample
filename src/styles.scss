@@ -13,6 +13,27 @@
 }
 
 .theme--sigma {
+  .text-button {
+    background-color: black;
+    color: white;
+  }
+  .dropdown {
+    .dropdown--edit {
+      &:after {
+        background-color: black;
+      }
+    }
+  }
+  .monthpicker__dropdown {
+    &:after {
+      background-color: black;
+    }
+  }
+  .datepicker__dropdown {
+    &:after {
+      background-color: black;
+    }
+  }
   .menu {
     .menu__header {
       border-left-color: #86d8f7;
