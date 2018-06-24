@@ -36,7 +36,7 @@
   }
   .menu {
     .menu__header {
-      border-left-color: #86d8f7;
+      border-left-color: lightgray;
     }
     .menu__footer {
       border-left-color: ivory;
@@ -44,7 +44,7 @@
     &:hover {
       .menu__item {
         &.menu__item--selected {
-          border-left-color: #86d8f7;
+          border-left-color: darkgray;
           &:hover {
             border-left-color: red;
           }
@@ -53,13 +53,13 @@
     }
   }
   .menu__item {
-    border-left-color: #86d8f7;
+    border-left-color: lightgray;
     &:hover:not(.menu__item--disabled) {
       border-left-color: red;
     }
     &.menu__item--selected {
-      border-left-color: #86d8f7;
-      background-color: #86d8f7;
+      border-left-color: darkgrey;
+      background-color: rgb(230, 230, 230);
       &:hover {
         border-left-color: red;
       }

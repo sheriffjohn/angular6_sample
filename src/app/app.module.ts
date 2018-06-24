@@ -11,6 +11,7 @@ import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { ExampleComponent } from './example/example.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DataService } from './data.service';
 
 
 @NgModule({
@@ -34,7 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
       { path: 'example', component: ExampleComponent }
     ])
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
